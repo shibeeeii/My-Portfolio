@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: black;
+    color: white;
+}
+
+header{
+    margin-top: 20px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem ;
+    background-color: transparent;
+    filter: drop-shadow(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+nav a{
+    font-size: 1.8rem;
+    color: white;
+    margin-left: 6rem;
+    font-weight: 500;
+}
+
+nav a:hover,
+nav a.active{
+    color: #b74b4b;
+    border-bottom: 3px solid #b74b4b;
+}
+
+
+
+section{
+    min-height: 100vh;
+    padding: 5rem 9% 5rem ;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+    height: 500px;
+    background-color: black;
+}
+
+#home .home-content h1{
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+span{
+    color: #b74b4b;
+}
+
+.home-content h3{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.home-content p{
+    text-align: justify;
+    line-height: 3rem;
+    font-size: 1.6rem;
+}
+
+.home-img{
+    border-radius: 30%;
+}
+
+.home-img img{
+    position: relative;
+    width: 25vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px solid #b74b4b;
+}
+
+
+.social-icons a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 0.2rem solid #b74b4b;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease;
+    color: #b74b4b;
+}
+
+.social-icons a:hover{
+    color: black;
+    transform: scale(1.3) translateY(-5px);
+    background-color: #b74b4b;
+    box-shadow: 0  0 25px #b74b4b;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: #b74b4b;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid #b74b4b;
+    transition: 0.3s ease;
+}
+
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: #b74b4b;
+    color: black;
+    box-shadow: 0 0 25px #b74b4b;
+}
+
+#skills{
+    margin-top: -5%;
+}
+
+
+
+#review-container{
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+
+}
+.barcontainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 3rem;
+}
+.barcontainer span{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.barcontainer h3{
+    font-size: 20px;
+}
+.bar{
+    width: 100%;
+    height: 0.8rem;
+    background-color: black;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+#bar1{
+    width: 98%;
+    background-color:#b74b4b;
+}
+#bar2{
+    width: 93%;
+    background-color: #b74b4b;
+}
+#bar3{
+    width: 60%;
+    background-color: #b74b4b;
+}
+
+.headingsk h1{
+    margin-left: 250px;
+    font-size: 40px;
+}
+.About{
+    margin-top: -20%;
+    width: 90%;
+    margin-left: 90px;
+}
+
+.About h1{
+    font-size: 40px;
+    text-align: center;
+}
+.About p{
+    margin-top: 16%;
+    font-size: 15px;
+    line-height: 3rem;
+    letter-spacing: 2px;
+    color:white;
+    text-align: justify;
+}
+
+#contact{
+    margin-top:-10% ;
+    font-size: 28px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#lastp{
+    padding: 50px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+#logos{
+    margin-top: 5%;
+}
+
+#logos a{
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.container-fluid{
+    margin-left: 10px;
+}
+
+
